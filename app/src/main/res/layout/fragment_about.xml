@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:scaleType="fitXY"
+                android:id="@+id/college_img"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_college"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/akgecblack"
+                android:fontFamily="@font/donglelight"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_margin"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_label"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/text_margin"
+                    android:text="Green Environment"
+                    android:fontFamily="@font/dongleregular"
+                    android:textSize="@dimen/title_size"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branches"
+                android:layout_marginTop="36dp"
+                android:textSize="@dimen/title_size2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/akgecyellow"
+                android:fontFamily="@font/donglebold"/>
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:foregroundGravity="center"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:id="@+id/viewPager"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/text_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="@dimen/title_size2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/akgecyellow"
+                android:fontFamily="@font/donglebold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajay Kumar Garg Engineering College"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/akgecblack"
+                android:fontFamily="@font/donglelight"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27th KM Milestone, Delhi - Meerut Expy,"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/akgecblack"
+                android:fontFamily="@font/donglelight"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ghaziabad, Uttar Pradesh 201009"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/akgecblack"
+                android:fontFamily="@font/donglelight"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8744052891-93, 7290034978"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/akgecblack"
+                android:fontFamily="@font/donglelight"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="info@akgec.ac.in"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/title_size"
+                android:textColor="@color/akgecblack"
+                android:fontFamily="@font/donglelight"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

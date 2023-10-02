@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/studentPortal"
+        android:title="Students Portal"
+        android:icon="@drawable/ic_faculty"/>
+
+    <item android:id="@+id/navigation_ebook"
+        android:title="Ebook"
+        android:icon="@drawable/ic_notice"/>
+
+    <item android:id="@+id/navigation_map"
+        android:title="Direction"
+        android:icon="@drawable/ic_location"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="Websites"
+        android:icon="@drawable/ic_lec"/>
+
+    <item android:id="@+id/navigation_rate"
+        android:title="Rate"
+        android:icon="@drawable/ic_rate"/>
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share"
+        android:icon="@drawable/ic_share"/>
+
+    <item android:id="@+id/navigation_developer"
+        android:title="Developer"
+        android:icon="@drawable/ic_developer"/>
+
+
+</menu>

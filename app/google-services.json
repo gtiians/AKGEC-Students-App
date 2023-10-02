@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "728550158913",
+    "firebase_url": "https://akgec-gzb-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "akgec-gzb-app",
+    "storage_bucket": "buckets/akgec-gzb-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728550158913:android:c6784aeddbf057ad900cc0",
+        "android_client_info": {
+          "package_name": "gtiians.akgec.faculty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrOov9XQBy6-kdSKlOwJCjqY41C010ako"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728550158913:android:8039d40933ec3cd3900cc0",
+        "android_client_info": {
+          "package_name": "gtiians.akgec.students"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrOov9XQBy6-kdSKlOwJCjqY41C010ako"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

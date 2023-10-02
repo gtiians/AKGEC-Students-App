@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <com.smarteist.autoimageslider.SliderLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@color/akgecblack"
+                    android:id="@+id/slider"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ajay Kumar Garg Engineering College"
+                    android:layout_marginTop="36dp"
+                    android:textSize="@dimen/title_size2"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/akgecyellow"
+                    android:fontFamily="@font/donglebold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about_college"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/akgecblack"
+                    android:fontFamily="@font/donglelight"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:background="@color/akgecblack">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="36dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:fontFamily="@font/donglebold"
+                            android:text="Departtments"
+                            android:textColor="@color/akgecyellow"
+                            android:textSize="@dimen/title_size2" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:fontFamily="@font/donglelight"
+                                    android:text="Applied Sciences and Humanities"
+                                    android:textColor="@color/akgecblack"
+                                    android:textSize="@dimen/title_size"
+                                    android:layout_margin="8dp"/>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/akgecyellow"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:fontFamily="@font/donglelight"
+                                    android:text="Civil Engineering"
+                                    android:textColor="@color/akgecblack"
+                                    android:textSize="@dimen/title_size"
+                                    android:layout_margin="8dp"/>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/akgecyellow"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:fontFamily="@font/donglelight"
+                                    android:text="Computer Science and Engineering"
+                                    android:textColor="@color/akgecblack"
+                                    android:textSize="@dimen/title_size"
+                                    android:layout_margin="8dp"/>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/akgecyellow"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:fontFamily="@font/donglelight"
+                                    android:text="Electrical and Electronics Engineering"
+                                    android:textColor="@color/akgecblack"
+                                    android:textSize="@dimen/title_size"
+                                    android:layout_margin="8dp"/>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/akgecyellow"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:fontFamily="@font/donglelight"
+                                    android:text="Electronics and Communication Engineering"
+                                    android:textColor="@color/akgecblack"
+                                    android:textSize="@dimen/title_size"
+                                    android:layout_margin="8dp"/>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/akgecyellow"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:fontFamily="@font/donglelight"
+                                    android:text="Mechanical Engineering"
+                                    android:textColor="@color/akgecblack"
+                                    android:textSize="@dimen/title_size"
+                                    android:layout_margin="8dp"/>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/akgecyellow"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginHorizontal="@dimen/text_margin"
+                                    android:layout_marginTop="@dimen/text_margin"
+                                    android:fontFamily="@font/donglelight"
+                                    android:text="Information Technology"
+                                    android:textColor="@color/akgecblack"
+                                    android:textSize="@dimen/title_size"
+                                    android:layout_margin="8dp"/>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/akgecyellow"/>
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textSize="@dimen/title_size2"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/akgecyellow"
+                    android:fontFamily="@font/donglebold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ajay Kumar Garg Engineering College"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/akgecblack"
+                    android:fontFamily="@font/donglelight"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="27th KM Milestone, Delhi - Meerut Expy,"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/akgecblack"
+                    android:fontFamily="@font/donglelight"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ghaziabad, Uttar Pradesh 201009"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/akgecblack"
+                    android:fontFamily="@font/donglelight"/>
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8744052891-93, 7290034978"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/akgecblack"
+                    android:fontFamily="@font/donglelight"/>
+               <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="info@akgec.ac.in"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/title_size"
+                    android:textColor="@color/akgecblack"
+                    android:fontFamily="@font/donglelight"/>
+                <ImageView
+                    android:id="@+id/map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="225dp"
+                    android:src="@drawable/map"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+   </ScrollView>
+
+</FrameLayout>
