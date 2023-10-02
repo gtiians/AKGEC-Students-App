@@ -12,6 +12,6 @@ It offers a central hub for news, events, notices, and other critical updates re
 
 ![screenshot](snapTwo.png)
 
-# Here are some snaps of CollegeAbout - DrawerDash and StudentLogin
+# Here are some snaps of CollegeAbout, DrawerDash and StudentLogin
 
 ![screenshot](snapThree.png)
